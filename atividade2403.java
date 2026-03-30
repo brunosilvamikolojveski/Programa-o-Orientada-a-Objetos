@@ -48,7 +48,7 @@ public class atividade2403 {
         int juntos[] = new int[20];
         int tamanho = 0;
 
-        // leitura
+        
         for (int i = 0; i < numeros1.length; i++) {
             System.out.print("Digite um numero: ");
             numeros1[i] = sc.nextInt();
@@ -204,7 +204,7 @@ public class atividade2403 {
 
                 if (numeros.get(j) > numeros.get(j + 1)) {
 
-                    // troca
+                
                     int temp = numeros.get(j);
                     numeros.set(j, numeros.get(j + 1));
                     numeros.set(j + 1, temp);
